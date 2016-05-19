@@ -7,18 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Custom Rom Development by Android-Andi @ XDA</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="assets/material.min.css" rel="stylesheet">
     <!-- Theme -->
     <link href="assets/style.css" rel="stylesheet">
-    <!-- Navbar theme -->
-    <link href="assets/navbar.css" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-      crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="container">
@@ -87,7 +78,11 @@
         <ul>
           <li><a href="https://www.androidfilehost.com/?w=files&flid=48848&sort_by=date&sort_dir=DESC">Common TWRP (for GT-P3100, GT-P3110, GT-P3113, GT-P5100, GT-P5110, GT-P5113)</a></li>
           <p>The common TWRP is compatible with GT-P3100, GT-P3110, GT-P3113, GT-P5100, GT-P5110 and GT-P5113 at the same time.</p>
-          <p><button class="btn btn-xs btn-danger" type="button">Note:</button> The new "Common TWRP" won't be able to flash Roms compiled before 22.03.2016.</p>
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4>Note:</h4>
+            <p>The new "Common TWRP" won't be able to flash Roms compiled before 22.03.2016.</p>
+        </div>
         </ul>
         <p>Device specific TWRP for Galaxy Tab2 (discontinued, but they should still work to flash latest Roms): <a href="https://www.androidfilehost.com/?w=files&flid=25704&sort_by=date&sort_dir=DESC">GT-P3100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=25705&sort_by=date&sort_dir=DESC">GT-P3110 / GT-P3113</a>, <a href="https://www.androidfilehost.com/?w=files&flid=25707&sort_by=date&sort_dir=DESC">GT-P5100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=25708&sort_by=date&sort_dir=DESC">GT-P5110 / GT-P5113</a></p>
         <h2>PhilZ Touch Recovery</h2>
@@ -111,5 +106,18 @@
         <br /><a href="http://forum.xda-developers.com/showthread.php?t=2548257">P31XX</a> | <a href="http://forum.xda-developers.com/showthread.php?t=2548476">P51XX</a></p>
       </div>
     </div>
+      
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
+        </div>
+    </footer>
+      
+    <!-- Scripts -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      
   </body>
 </html>
