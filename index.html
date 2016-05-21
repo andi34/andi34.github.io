@@ -75,42 +75,137 @@
       </nav>
       <!-- Main body -->
 
-      <div class="jumbotron">
-        <h1 id="heading">Custom Rom Development<br />by Android Andi.</h1>
-        <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there.
-           This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
-        
-
-          <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary btn-lg" id="btn">All Downloads at Androidfilehost</a>
+        <div class="jumbotron">
+            <h1 id="heading">Custom Rom Development<br />by Android Andi.</h1>
+            <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
+            <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary btn-lg" id="btn">All Downloads at Androidfilehost</a>
         </div>
 
         
-      <div class="alert alert-dismissible alert-warning">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-          <h4>Warning!</h4>
-          <p>
-        I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.<br />
-        Please do some research if you have any concerns about features included in this Roms & Recoveries before flashing it!<br />
-        YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
-          </p>
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4>Warning!</h4>
+            <p>
+            I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.<br />
+            Please do some research if you have any concerns about features included in this Roms & Recoveries before flashing it!<br />
+            YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
+            </p>
         </div>
+      </div>
+      
+      <div class="container">
+          <div class="row">
+              
+              <div class="col-lg-7">
+                  <h2>Downloads</h2>
+                  <hr />                  
+                  <div class="jumbotron">
+                      <h3>Samsung Galaxy Tab 2</h3>
+                      <hr/>
+                      <h4>Roms:</h4>
+                      
+                      <div class="list-group">
+                          <a href="roms_tab2_cm.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">CyanogenMod</h4>
+                          </a>
+                          <a href="roms_tab2_omni.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">Omni Roms</h4>
+                          </a>
+                          <a href="roms_tab2_slim.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">Slim Roms</h4>
+                          </a>
+                          <a href="roms_tab2_aosp.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">AOSP</h4>
+                          </a>
+                      </div>
+                      
+                      <h4>Extras:</h4>
+                      <div class="list-group">
+                          <a href="recoveries_tab2.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">Recoveries</h4>
+                          </a>
+                          <a href="gapps.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">GApps</h4>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="jumbotron">
+                      
+                      <h3>Samsung Galaxy S3 mini</h3>
+                      <hr/>
+                      <h4>Roms:</h4>
+                      <div class="list-group">
+                          <a href="roms_golden_slim.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">Slim Roms</h4>
+                          </a>
+                      </div>
+                      <br />
+                      <h4>Extras:</h4>
+                      <div class="list-group">
+                          <a href="recoveries_golden.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">Recoveries</h4>
+                          </a>
+                          <a href="gapps.html" class="list-group-item">
+                              <h4 class="list-group-item-heading">GApps</h4>
+                          </a>
+                      </div>
+                  </div>
+              
+              </div>   
+
+              <div class="col-lg-5">
+                  <h2>Latest Updates</h2>
+                  <hr />
+                  <div class="jumbotron">
+                      
+                      <p><b>17.05.2016</b></p>
+                      <ul>
+                          <p>Some updates on http://andi34.github.io</p>
+                          <ul>
+                              <li>Add Rom & Recovery Thread links to the rom pages</li>
+                              <li>Add Rom logos</li>
+                              <li>Add CWM and PhilZ Touch links for historical reason</li>
+                              <li>Fixed some small bugs, fixed navbar for better design and mobile view - thanks to <a href="https://github.com/aykut78" target="_blank">aykut78</a></li>
+                          </ul>
+                          <br />
+                      </ul>
+                      
+                      <p><b>16.05.2016</b></p>
+                      <ul>
+                          <p>New CM 13.0 builds for espressowifi and espresso3g available</p>
+                          <ul>
+                              <li>Latest CM 13.0 source</li>
+                              <li>Clean flash recommand because we switched to our new kernel for a final public test before it finally replaces our old, bloated kernel.</li>
+                              <li><b>NOTE:</b> Booting takes some more time now - there's a delay for up to 10 sec. betweeen the samsung logo and bootanimation (The bootloader init was disabled and the kernel resets everything on boot which is a good thing but delays bootup.)</li>
+                              <li>Many thanks to XDA's Ziyan for the new kernel! He did the main part of it! (We worked together on it for almost 9 months now - where is the time?!)</li>
+                              <li>Kernel source will be available on CM's github after this public test to be sure everything works as it should - please respect that the source won't be public before</li>
+                              <li>Found a bug? Attach a logcat and dmesg on XDA.</li>
+                          </ul>
+                      </ul>
+                      
+                      <a href="news.html" class="btn btn-default btn-lg btn-block">All Updates</a>
+                  </div>
               </div>
+          </div>
+      </div>
       
       
       <footer class="footer">
         <div class="container">
             <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
         </div>
-    </footer>
+      </footer>
 
-    <!-- Scripts -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="assets/jquery.fittext.js"></script>
-    <script type="text/javascript">
-		$("#heading").fitText(1.1, { minFontSize: '40px', maxFontSize: '59px' });
-	</script>
-    </body>
+      <!-- Scripts (Placed at the end of the document so the pages load faster)-->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <!-- jQuery Plugin for automatic font size -->
+      <script src="assets/jquery.fittext.js"></script>
+      <script type="text/javascript">
+          $("#heading").fitText(1.1, { minFontSize: '40px', maxFontSize: '59px' });
+      </script>
+
+</body>
 </html>
