@@ -26,3 +26,11 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
+
+@media (max-width: 600px) {
+
+	.btn{
+        font-size: 12px;     
+
+	}
+}
