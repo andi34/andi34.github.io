@@ -76,12 +76,12 @@
       <!-- Main body -->
 
       <div class="jumbotron">
-        <h1>Custom Rom Development<br />by Android Andi.</h1>
+        <h1 id="heading">Custom Rom Development<br />by Android Andi.</h1>
         <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there.
            This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
         
 
-          <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary btn-lg">All Downloads at Androidfilehost</a>
+          <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary btn-lg" id="btn">All Downloads at Androidfilehost</a>
         </div>
 
         
@@ -108,5 +108,9 @@
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/jquery.fittext.js"></script>
+    <script type="text/javascript">
+		$("#heading").fitText(1.1, { minFontSize: '40px', maxFontSize: '59px' });
+	</script>
     </body>
 </html>
