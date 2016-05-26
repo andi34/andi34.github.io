@@ -5,6 +5,9 @@ body {
 .jumbotron p {
     font-size: 14px;
 }
+.main {
+    padding-top: 65px;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -20,7 +23,7 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 65px;
   background-color: #f5f5f5;
 }
 .container .text-muted {
@@ -30,7 +33,7 @@ body {
 @media (max-width: 600px) {
 
 	.btn{
-        font-size: 12px;     
+        font-size: 15px;     
 
 	}
 }
