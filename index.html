@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Custom Rom Development by Android-Andi @ XDA</title>
+     <!-- Open graph tags to customize link previews. -->
+    <meta property="og:url"           content="https://andi34.github.io" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Custom Rom Development by Android-Andi" />
+	<meta property="og:description"   content="Custom Rom Development by Android-Andi for the Samsung Galaxy Tab 2 and
+                                               Samsung Galaxy S3 mini." />
     <!-- Latest compiled and minified CSS with material design-->
     <link href="assets/material.min.css" rel="stylesheet">
     <!-- Theme -->
     <link href="assets/style.css" rel="stylesheet">
-
   </head>
-  <body>
+
+  <body class="main">
     <div class="container">
       <!-- Static navbar -->
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -73,15 +79,17 @@
           </div>
         </div>
       </nav>
+    </div>
       <!-- Main body -->
-
-        <div class="jumbotron">
-            <h1 id="heading">Custom Rom Development<br />by Android-Andi</h1>
-            <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
-            <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary btn-lg" id="btn">All Downloads at Androidfilehost</a>
-        </div>
-
+      <div class="jumbotron">
+          <div class="container">
+              <h1 id="heading">Custom Rom Development<br />by Android-Andi</h1>
+              <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io" target="_blank">find the source here</a>.</p>
+              <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary btn-lg" id="btn">To all Downloads</a>
+          </div>
+      </div>
         
+      <div class="container">
         <div class="alert alert-dismissible alert-warning">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
             <h4>Warning!</h4>
@@ -186,13 +194,20 @@
                   </div>
               </div>
           </div>
+          
+          <div class="panel panel-default">
+              <div class="panel-body">
+                  <div class="g-plusone right" data-annotation="inline" data-width="200"></div>
+                  <div class="fb-like" data-href="https://andi34.github.io" data-layout="standard" data-action="like" data-show-faces="false" data-share="true" data-width="230"></div>
+                  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+              </div>
+          </div>
       </div>
       
-      
       <footer class="footer">
-        <div class="container">
-            <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
-        </div>
+          <div class="container">
+              <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
+          </div>
       </footer>
 
       <!-- Scripts (Placed at the end of the document so the pages load faster)-->
@@ -202,9 +217,8 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       <!-- jQuery Plugin for automatic font size -->
       <script src="assets/jquery.fittext.js"></script>
-      <script type="text/javascript">
-          $("#heading").fitText(1.1, { minFontSize: '40px', maxFontSize: '59px' });
-      </script>
+      <script type="text/javascript">$("#heading").fitText(1.1, { minFontSize: '40px', maxFontSize: '59px' });</script>
+      <script src="assets/social.js"></script>
 
 </body>
 </html>
