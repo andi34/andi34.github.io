@@ -6,118 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Custom Rom Development by Android-Andi @ XDA</title>
-    <!-- Latest compiled and minified CSS -->
-    <link href="assets/material.min.css" rel="stylesheet">
-    <!-- Theme -->
-    <link href="assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+    <link href="assets/material-kit.css" rel="stylesheet"/>
+    <link href="assets/style.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
   </head>
-  <body class="main">
-    <div class="container">
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Android-Andi</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">About</a></li>
-              <li><a href="news.html">News</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="recoveries_tab2.html">Recoveries for Samsung Galaxy Tab2</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="recoveries_golden.html">Recoveries for Samsung Galaxy S3 mini</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROMs <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">Samsung Galaxy Tab2</li>
-                  <li><a href="roms_tab2_aosp.html">AOSP</a></li>
-                  <li><a href="roms_tab2_cm.html">CyanogenMod</a></li>
-                  <li><a href="roms_tab2_omni.html">OmniRom</a></li>
-                  <li class="active"><a href="roms_tab2_slim.html">SlimRoms</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Samsung Galaxy S3 mini</li>
-                  <li><a href="roms_golden_slim.html">SlimRoms</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">GApps</li>
-                  <li><a href="gapps.html">GApps (information and links)</a></li>
-                </ul>
-              </li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">Samsung Galaxy Tab2</li>
-                  <li><a href="known_bugs_tab2_4.4.html">Android 4.4</a></li>
-                  <li><a href="known_bugs_tab2_5.1.html">Android 5.1</a></li>
-                  <li><a href="known_bugs_tab2_6.0.html">Android 6.0</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Samsung Galaxy S3 mini</li>
-                  <li><a href="known_bugs_golden_4.4.html">Android 4.4</a></li>
-                  <li><a href="known_bugs_golden_5.1.html">Android 5.1</a></li>
-                </ul>
-              </li>
-              <li><a href="donations.html">Donations</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-
-      <!-- Main body -->
-      <div class="jumbotron">
-          <div class="container">
-              <img src="./res/slimroms.png" class="img-responsive" />
-              <br />
-              <p><a href="http://review.slimroms.org">SlimRoms Gerrit Codereview</a> | <a href="http://review.slimroms.org/#/q/status:merged">Merged changes</a></p>
-              <p><a href="http://slimroms.org">SlimRoms official Hompage</a></p>
-          </div>
-      </div>
-      
+  <body>
+    <nav class="navbar navbar-transparent navbar-fixed-top">
       <div class="container">
-          <div class="jumbotron">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Android-Andi</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="recoveries_tab2.html">Recoveries for Samsung Galaxy Tab2</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="recoveries_golden.html">Recoveries for Samsung Galaxy S3 mini</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROMs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Samsung Galaxy Tab2</li>
+                <li><a href="roms_tab2_aosp.html">AOSP</a></li>
+                <li><a href="roms_tab2_cm.html">CyanogenMod</a></li>
+                <li><a href="roms_tab2_omni.html">OmniRom</a></li>
+                <li class="active"><a href="#">SlimRoms</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Samsung Galaxy S3 mini</li>
+                <li><a href="roms_golden_slim.html">SlimRoms</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">GApps</li>
+                <li><a href="gapps.html">GApps (information and links)</a></li>
+              </ul>
+            </li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Samsung Galaxy Tab2</li>
+                <li><a href="known_bugs_tab2_4.4.html">Android 4.4</a></li>
+                <li><a href="known_bugs_tab2_5.1.html">Android 5.1</a></li>
+                <li><a href="known_bugs_tab2_6.0.html">Android 6.0</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Samsung Galaxy S3 mini</li>
+                <li><a href="known_bugs_golden_4.4.html">Android 4.4</a></li>
+                <li><a href="known_bugs_golden_5.1.html">Android 5.1</a></li>
+              </ul>
+            </li>
+            <li><a href="donations.html">Donations</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main body -->
+    <div class="jumbotron">
+      <div class="container">
+        <img src="./res/slimroms.png" class="img-responsive heading" />
+        <br />
+        <p>
+          <a href="http://review.slimroms.org" target="_blank">SlimRoms Gerrit Codereview</a> | 
+          <a href="http://review.slimroms.org/#/q/status:merged" target="_blank">Merged changes</a>
+        </p>
+        <p>
+          <a href="http://slimroms.org" target="_blank">SlimRoms official Hompage</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="jumbotron">
 
         <h2>SlimKat</h2>
         <ul>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=51347&sort_by=date&sort_dir=DESC">SlimKat espresso (P3110, P3113, P5110, P5113)</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=51348&sort_by=date&sort_dir=DESC">SlimKat espresso3g (P3100 & P5100)</a></li>
-          <p>For Questions and Feedback please use the Rom Threads on XDA:
-          <br /><a href="http://forum.xda-developers.com/showthread.php?t=2619109">P31XX</a> | <a href="http://forum.xda-developers.com/showthread.php?t=2640307">P51XX</a></p>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=51347&sort_by=date&sort_dir=DESC" target="_blank">espresso (P3110, P3113, P5110, P5113)</a></li>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=51348&sort_by=date&sort_dir=DESC" target="_blank">espresso3g (P3100 & P5100)</a></li>
+          <p>For Questions and Feedback please use the Rom Threads on XDA:<br />
+            <a href="http://forum.xda-developers.com/showthread.php?t=2619109" target="_blank">P31XX</a> | 
+            <a href="http://forum.xda-developers.com/showthread.php?t=2640307" target="_blank">P51XX</a>
+          </p>
         </ul>
-        <p>Device specific Galaxy Tab 2 builds (discontinued): <a href="https://www.androidfilehost.com/?w=files&flid=15082&sort_by=date&sort_dir=DESC">GT-P3100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=15083&sort_by=date&sort_dir=DESC">GT-P3110</a>, <a href="https://www.androidfilehost.com/?w=files&flid=15084&sort_by=date&sort_dir=DESC">GT-P5100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=15085&sort_by=date&sort_dir=DESC">GT-P5110</a></p>
+        <p>Device specific Galaxy Tab 2 builds (discontinued): 
+          <a href="https://www.androidfilehost.com/?w=files&flid=15082&sort_by=date&sort_dir=DESC" target="_blank">GT-P3100</a>, 
+          <a href="https://www.androidfilehost.com/?w=files&flid=15083&sort_by=date&sort_dir=DESC" target="_blank">GT-P3110</a>, 
+          <a href="https://www.androidfilehost.com/?w=files&flid=15084&sort_by=date&sort_dir=DESC" target="_blank">GT-P5100</a>, 
+          <a href="https://www.androidfilehost.com/?w=files&flid=15085&sort_by=date&sort_dir=DESC" target="_blank">GT-P5110</a>
+        </p>
+        
         <h2>SlimLP</h2>
         <ul>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=25694&sort_by=date&sort_dir=DESC">SlimLP GT-P3100</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=25695&sort_by=date&sort_dir=DESC">SlimLP GT-P3110</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=25696&sort_by=date&sort_dir=DESC">SlimLP GT-P5100</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=25697&sort_by=date&sort_dir=DESC">SlimLP GT-P5110</a></li>
-          <p>For Questions and Feedback please use the Rom Threads on XDA:
-          <br /><a href="http://forum.xda-developers.com/galaxy-tab-2/7-inch-development/rom-slimlp-t2969075">P31XX</a> | <a href="http://forum.xda-developers.com/galaxy-tab-2/10-inch-development/rom-slimlp-t2969112">P51XX</a></p>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=25694&sort_by=date&sort_dir=DESC" target="_blank">GT-P3100</a></li>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=25695&sort_by=date&sort_dir=DESC" target="_blank">GT-P3110</a></li>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=25696&sort_by=date&sort_dir=DESC" target="_blank">GT-P5100</a></li>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=25697&sort_by=date&sort_dir=DESC" target="_blank">GT-P5110</a></li>
+          <p>
+            For Questions and Feedback please use the Rom Threads on XDA:<br />
+            <a href="http://forum.xda-developers.com/galaxy-tab-2/7-inch-development/rom-slimlp-t2969075" target="_blank">P31XX</a> | 
+            <a href="http://forum.xda-developers.com/galaxy-tab-2/10-inch-development/rom-slimlp-t2969112" target="_blank">P51XX</a>
+          </p>
         </ul>
       </div>
     </div>
       
     <footer class="footer">
-        <div class="container">
-            <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
-        </div>
+      <div class="container">
+        <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
+      </div>
     </footer>
       
     <!-- Scripts -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/material-kit.js"></script>
+    <script src="assets/material.min.js"></script>
+    <script src="assets/scroll.js"></script>
       
   </body>
 </html>

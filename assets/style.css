@@ -1,39 +1,55 @@
-body {
-    padding-top: 90px;
-    font-size: 14px;
-}
-.jumbotron p {
-    font-size: 14px;
-}
-.main {
-    padding-top: 65px;
-}
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: white;
+}
+.heading {
+  padding-top: 45px;
+}
+.jumbotron p {
+  font-size: 14px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 65px;
+  height: 60px;
   background-color: #f5f5f5;
 }
 .container .text-muted {
-  margin: 20px 0;
+  margin: 6px 0;
 }
-
-@media (max-width: 600px) {
-
-	.btn{
-        font-size: 15px;     
-
-	}
+.navbar-transparent {
+  color: black;
+}
+.navbar {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.4);
+  color: rgba(255,255,255, 0.9);
+}
+.single {
+  padding-top: 90px;
+}
+@media (max-width: 768px) {
+  .heading {
+    padding-top: 65px;
+  }
+  .navbar-transparent {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+  }
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    border-radius: 0;
+  }
 }

@@ -6,101 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Custom Rom Development by Android-Andi @ XDA</title>
-    <!-- Latest compiled and minified CSS -->
-    <link href="assets/material.min.css" rel="stylesheet">
-    <!-- Theme -->
-    <link href="assets/style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+    <link href="assets/material-kit.css" rel="stylesheet"/>
+    <link href="assets/style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
   </head>
-  <body class="main">
-    <div class="container">
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Android-Andi</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">About</a></li>
-              <li><a href="news.html">News</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="recoveries_tab2.html">Recoveries for Samsung Galaxy Tab2</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="recoveries_golden.html">Recoveries for Samsung Galaxy S3 mini</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROMs <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">Samsung Galaxy Tab2</li>
-                  <li><a href="roms_tab2_aosp.html">AOSP</a></li>
-                  <li><a href="roms_tab2_cm.html">CyanogenMod</a></li>
-                  <li><a href="roms_tab2_omni.html">OmniRom</a></li>
-                  <li><a href="roms_tab2_slim.html">SlimRoms</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Samsung Galaxy S3 mini</li>
-                  <li><a href="roms_golden_slim.html">SlimRoms</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">GApps</li>
-                  <li class="active"><a href="gapps.html">GApps (information and links)</a></li>
-                </ul>
-              </li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">Samsung Galaxy Tab2</li>
-                  <li><a href="known_bugs_tab2_4.4.html">Android 4.4</a></li>
-                  <li><a href="known_bugs_tab2_5.1.html">Android 5.1</a></li>
-                  <li><a href="known_bugs_tab2_6.0.html">Android 6.0</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Samsung Galaxy S3 mini</li>
-                  <li><a href="known_bugs_golden_4.4.html">Android 4.4</a></li>
-                  <li><a href="known_bugs_golden_5.1.html">Android 5.1</a></li>
-                </ul>
-              </li>
-              <li><a href="donations.html">Donations</a></li>
-            </ul>
-          </div>
+  <body>
+    <nav class="navbar navbar-transparent navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Android-Andi</a>
         </div>
-      </nav>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="recoveries_tab2.html">Recoveries for Samsung Galaxy Tab2</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="recoveries_golden.html">Recoveries for Samsung Galaxy S3 mini</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROMs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Samsung Galaxy Tab2</li>
+                <li><a href="roms_tab2_aosp.html">AOSP</a></li>
+                <li><a href="roms_tab2_cm.html">CyanogenMod</a></li>
+                <li><a href="roms_tab2_omni.html">OmniRom</a></li>
+                <li><a href="roms_tab2_slim.html">SlimRoms</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Samsung Galaxy S3 mini</li>
+                <li><a href="roms_golden_slim.html">SlimRoms</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">GApps</li>
+                <li class="active"><a href="gapps.html">GApps (information and links)</a></li>
+              </ul>
+            </li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Samsung Galaxy Tab2</li>
+                <li><a href="known_bugs_tab2_4.4.html">Android 4.4</a></li>
+                <li><a href="known_bugs_tab2_5.1.html">Android 5.1</a></li>
+                <li><a href="known_bugs_tab2_6.0.html">Android 6.0</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Samsung Galaxy S3 mini</li>
+                <li><a href="known_bugs_golden_4.4.html">Android 4.4</a></li>
+                <li><a href="known_bugs_golden_5.1.html">Android 5.1</a></li>
+              </ul>
+            </li>
+            <li><a href="donations.html">Donations</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main body -->
+    <div class="jumbotron">
+      <div class="container">
+          <h1 class="heading">GApps</h1>
+      </div>
     </div>
 
-      <!-- Main body -->
+    <div class="container">
       <div class="jumbotron">
-          <div class="container">
-              <h1 id="heading">GApps</h1>
-          </div>
-      </div>
-
-      <div class="container">
-          <div class="jumbotron">
-
         <p>Please make sure using the right GApps for your Android Version!</p>
         <p>There's different sources of GApps you can use, some examples for you:</p>
         <ul>
           <li><a href="http://forum.xda-developers.com/android/software/app-minimal-gapps-gapps-lp-20150107-1-t2997368">GApps by Deltadroid</a></li>
           <li><a href="http://opengapps.org">Open GApps Project</a>
-          <br /><a href="http://forum.xda-developers.com/android/software/pa-gapps-continuation-t3098071">Open GApps Project on XDA-Developers</a></li> 
+          <br />
+          <a href="http://forum.xda-developers.com/android/software/pa-gapps-continuation-t3098071">Open GApps Project on XDA-Developers</a></li> 
         </ul>
         <p>Please use the XDA Threads if you have propblems with the GApps packages or questions about them.</p>
-          <div class="alert alert-dismissible alert-warning">
-  <button type="button" class="close" data-dismiss="alert">&times;</button>
-  <h4>Important notes for Android 6.0:</h4>
-<p>Installing GApps tends to be problematic: in order to try to avoid installation issues, be sure to install GApps immediately after installing the ROM,
-             before booting the system for the first time.</p>
-          <p><b>Maybe needed (check the gapps xda thread for more information):</b> After the initial bootup finished, be sure to go into Settings -> Apps, and grant every permission to every Google application - most importantly,
-             Google Play services. In the case of an upgrade you also might need to re-install the GApps package, as upgrading wipes /system. You shouldn't need to re-set the permissions afterwards.</p>
+        <div class="alert alert-primary">
+          <div class="alert-icon">
+            <i class="material-icons">warning</i>
+          </div>
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <h4>Important notes for Android 6.0:</h4>
+          <p>Installing GApps tends to be problematic: in order to try to avoid installation issues, be sure to install GApps immediately after installing the ROM, before booting the system for the first time.</p>
+          <p><b>Maybe needed (check the gapps xda thread for more information):</b> After the initial bootup finished, be sure to go into Settings -> Apps, and grant every permission to every Google application - most importantly, Google Play services. In the case of an upgrade you also might need to re-install the GApps package, as upgrading wipes /system. You shouldn't need to re-set the permissions afterwards.</p>
           <p><b>One more note:</b> DO NOT set up your Google account until you grant all permissions, otherwise you will be stuck on the initial setup.
-</div>
+        </div>
       </div>
     </div>
       
@@ -111,10 +112,11 @@
     </footer>
       
     <!-- Scripts -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/material-kit.js"></script>
+    <script src="assets/material.min.js"></script>
+    <script src="assets/scroll.js"></script>
       
   </body>
 </html>
