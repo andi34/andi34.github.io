@@ -45,7 +45,7 @@
           <p><b>Galaxy Tab2</b></p>
           <p>espresso-common TWRP 3.0.2-5</p>
           <ul>
-            <li>Official changes until <a href="https://github.com/omnirom/android_bootable_recovery/commits/99af7666682234f0a75f9ee7d0005c0535704e92" target="_blank">99af766 head</a> from OmniRoms TWRP source (android-7.0 branch)</a></li>
+            <li>Official changes until <a href="https://github.com/omnirom/android_bootable_recovery/commits/99af7666682234f0a75f9ee7d0005c0535704e92" target="_blank">99af766 head</a> from OmniRoms TWRP source (android-7.0 branch)</li>
             <li>Support eMMC 4.5. In the past our "new" kernel did not support eMMC 4.5 (some people seem to have newer EMMC). On TWRP it wasn't possible to wipe or flash any files on devices with newer EMMC.</li>
           </ul>
           <br />
@@ -71,7 +71,7 @@
         <ul>
           <p>espresso-common TWRP 3.0.2-4</p>
           <ul>
-            <li>Official changes until <a href="https://github.com/omnirom/android_bootable_recovery/commits/724c5148a5bf341479bf943b0c64ce8d40814148" target="_blank">724c514 head</a> from OmniRoms TWRP source (android-7.0 branch)</a></li>
+            <li>Official changes until <a href="https://github.com/omnirom/android_bootable_recovery/commits/724c5148a5bf341479bf943b0c64ce8d40814148" target="_blank">724c514 head</a> from OmniRoms TWRP source (android-7.0 branch)</li>
           </ul>
           <br />
         </ul>
@@ -272,7 +272,7 @@
         <ul>
           <p>espresso-common TWRP 3.0.2-1</p>
           <ul>
-            <li>Official changes until <a href="https://github.com/omnirom/android_bootable_recovery/commits/72c87ce3472380ad16267be958923c1d2635dc93" target="_blank">72c87ce head</a> from OmniRoms TWRP source</a></li>
+            <li>Official changes until <a href="https://github.com/omnirom/android_bootable_recovery/commits/72c87ce3472380ad16267be958923c1d2635dc93" target="_blank">72c87ce head</a> from OmniRoms TWRP source</li>
             <li>New kernel with last_kmsg support. <br /><b>NOTE:</b> Booting TWRP takes some more time now. The bootloader init was disabled and the kernel resets everything on boot which is a good thing but delays bootup.</li>
           </ul>
           <br />
