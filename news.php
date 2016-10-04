@@ -10,7 +10,7 @@
     
     <div class="jumbotron">
       <div class="container">
-        <h1 class="heading">News</h1>
+        <h1 class="heading"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> News</h1>
       </div>
     </div>
       

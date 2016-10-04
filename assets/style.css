@@ -43,7 +43,14 @@ body {
 }
 @media (max-width: 768px) {
   .heading {
-    padding-top: 65px;
+    padding-top: 55px;
+    font-size: 44px;
+  }
+  .footer {
+    height: 120px;
+  }
+  body {
+    margin-bottom: 120px;
   }
   .navbar.scrolled {
     background: rgba(0, 0, 0, 0.4) !important;

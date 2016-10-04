@@ -10,7 +10,7 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1 class="heading">FAQ - Frequently Asked Questions</h1>
+        <h1 class="heading"><i class="fa fa-question-circle-o fa-fw" aria-hidden="true"></i> FAQ - Frequently Asked Questions</h1>
       </div>
     </div>
       
