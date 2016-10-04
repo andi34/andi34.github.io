@@ -12,7 +12,8 @@
       <div class="container">
         <h1 class="heading">Custom Rom Development<br />by Android-Andi</h1>
         <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io" target="_blank">find the source here</a>.</p>
-        <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary" id="btn"><i class="material-icons">open_in_new</i> To all Downloads</a>
+        <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary"><i class="material-icons">open_in_new</i> To all Downloads</a>
+        <a href="https://github.com/andi34" target="_blank" class="btn btn-white"><i class="material-icons">account_circle</i> Github Profile</a>
       </div>
     </div>
       
