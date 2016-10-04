@@ -22,12 +22,16 @@
           <li><a href="https://www.androidfilehost.com/?w=files&flid=15009&sort_by=date&sort_dir=DESC">TWRP</a></li>
         </ul>
         <p>For Questions and Feedback please use the <a href="http://forum.xda-developers.com/showthread.php?t=2748327">Recovery Thread on XDA</a>.</p>
+        <hr/>
+        
         <h2>PhilZ Touch Recovery</h2>
         <ul>
           <li><a href="https://www.androidfilehost.com/?w=files&flid=15008&sort_by=date&sort_dir=DESC">PhilZ Touch Recovery</a></li>
         </ul>
         <p>PhilZ Touch Recovery is discontinued (sadly, i really loved it), you should use TWRP instead.</p>
         <p>For Questions and Feedback please use the <a href="http://forum.xda-developers.com/showthread.php?t=2749286">Recovery Thread on XDA</a>.</p>
+        <hr/>
+        
         <h2>CWM (ClockworkMod Recovery)</h2>
         <ul>
           <li><a href="https://www.androidfilehost.com/?w=files&flid=15394&sort_by=date&sort_dir=DESC">CWM (ClockworkMod Recovery)</a></li>

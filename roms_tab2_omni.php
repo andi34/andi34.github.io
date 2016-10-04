@@ -42,6 +42,7 @@
           <a href="https://www.androidfilehost.com/?w=files&flid=26036&sort_by=date&sort_dir=DESC" target="_blank">GT-P5100</a>, 
           <a href="https://www.androidfilehost.com/?w=files&flid=26037&sort_by=date&sort_dir=DESC" target="_blank">GT-P5110</a>
         </p>
+        <hr/>
         
         <h2>OmniRom 5.1</h2>
         <ul>
@@ -59,6 +60,7 @@
           <a href="https://www.androidfilehost.com/?w=files&flid=27613&sort_by=date&sort_dir=DESC" target="_blank">GT-P5100</a>, 
           <a href="https://www.androidfilehost.com/?w=files&flid=27620&sort_by=date&sort_dir=DESC" target="_blank">GT-P5110</a>
         </p>
+        <hr/>
 
         <h2>OmniRom 6.0</h2>
         <p><b>Official nightly builds</b><br />

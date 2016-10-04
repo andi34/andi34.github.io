@@ -41,6 +41,7 @@
           <a href="https://www.androidfilehost.com/?w=files&flid=15084&sort_by=date&sort_dir=DESC" target="_blank">GT-P5100</a>, 
           <a href="https://www.androidfilehost.com/?w=files&flid=15085&sort_by=date&sort_dir=DESC" target="_blank">GT-P5110</a>
         </p>
+        <hr/>
         
         <h2>SlimLP</h2>
         <ul>
@@ -57,6 +58,7 @@
           <a href="https://www.androidfilehost.com/?w=files&flid=25696&sort_by=date&sort_dir=DESC" target="_blank">GT-P5100</a>,
           <a href="https://www.androidfilehost.com/?w=files&flid=25697&sort_by=date&sort_dir=DESC" target="_blank">GT-P5110</a>
         </p>
+        <hr/>
 
         <h2>Slim6</h2>
         <p><b>Official builds (weekly)</b><br /></p>

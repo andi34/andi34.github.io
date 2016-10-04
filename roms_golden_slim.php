@@ -28,6 +28,8 @@
           <li><a href="https://www.androidfilehost.com/?w=files&flid=14868&sort_by=date&sort_dir=DESC" target="_blank">SlimKat (GT-I8190)</a></li>
           <p>For Questions and Feedback please use <a href="http://forum.xda-developers.com/showthread.php?t=2758098" target="_blank">the Rom Thread on XDA</a>.</p>
         </ul>
+        <hr/>
+        
         <h2>SlimLP</h2>
         <ul>
           <li><a href="https://www.androidfilehost.com/?w=files&flid=31931&sort_by=date&sort_dir=DESC" target="_blank">SlimLP (GT-I8190)</a></li>

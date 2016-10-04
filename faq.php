@@ -154,7 +154,7 @@
         </ul>
         <br />
         <hr />
-        <b>I can't change my rom, wipe / format doesn't work. Nothing changed after flashing with Odin.</b></p>
+        <p><b>I can't change my rom, wipe / format doesn't work. Nothing changed after flashing with Odin.</b></p>
         <p>16 GB Tab 2 have a known faulty EMMC (MAG2GA). It can happen, that your EMMC get "read only", so you can't perform any write actions (also you can't format) anymore.</p>
         <ul>
           <p>From the EMMC data sheet:</p>

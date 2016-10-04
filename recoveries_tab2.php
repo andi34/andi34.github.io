@@ -32,6 +32,8 @@
         </div>
         </ul>
         <p>Device specific TWRP for Galaxy Tab2 (discontinued, but they should still work to flash latest Roms): <a href="https://www.androidfilehost.com/?w=files&flid=25704&sort_by=date&sort_dir=DESC">GT-P3100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=25705&sort_by=date&sort_dir=DESC">GT-P3110 / GT-P3113</a>, <a href="https://www.androidfilehost.com/?w=files&flid=25707&sort_by=date&sort_dir=DESC">GT-P5100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=25708&sort_by=date&sort_dir=DESC">GT-P5110 / GT-P5113</a></p>
+        <hr/>
+        
         <h2>PhilZ Touch Recovery</h2>
         <p>PhilZ Touch Recovery is discontinued (sadly, i really loved it), you should use TWRP instead.</p>
         <ul>
@@ -40,6 +42,8 @@
           <li><a href="https://www.androidfilehost.com/?w=files&flid=25711&sort_by=date&sort_dir=DESC">GT-P5100</a></li>
           <li><a href="https://www.androidfilehost.com/?w=files&flid=25712&sort_by=date&sort_dir=DESC">GT-P5110</a></li>
         </ul>
+        <hr/>
+        
         <h2>CWM (ClockworkMod Recovery)</h2>
         <p>CWM is discontinued, you should use TWRP instead.</p>
         <ul>

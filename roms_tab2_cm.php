@@ -40,6 +40,7 @@
           <a href="http://forum.xda-developers.com/showthread.php?t=2525713" target="_blank">P31XX</a> | 
           <a href="http://forum.xda-developers.com/showthread.php?t=2571498" target="_blank">P51XX</a>
         </p>
+        <hr/>
         
         <h2>CyanogenMod 12.1</h2>
         <ul>
@@ -57,6 +58,7 @@
           <a href="https://www.androidfilehost.com/?w=files&flid=29020&sort_by=date&sort_dir=DESC" target="_blank">GT-P5100</a>, 
           <a href="https://www.androidfilehost.com/?w=files&flid=29021&sort_by=date&sort_dir=DESC" target="_blank">GT-P5110</a>
         </p>
+        <hr/>
         
         <h2>CyanogenMod 13.0</h2>
         <ul>

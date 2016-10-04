@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row">
               
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates</h2>
           <hr />
 
@@ -57,7 +57,7 @@
                         <br />
                         <p><b>NOTE:</b> You might need to use TWRP 3.0.2-6 (uploaded already) to flash the new roms, on Android 4 and 6 old recoveries might work (but better update too).</p>
                         <br />
-                     </ul>
+                      </ul>
 
                       <p><b>20.09.2016</b></p>
                       <ul>
@@ -72,13 +72,15 @@
                         <ul>
                           <li>Support eMMC 4.5. In the past our "new" kernel did not support eMMC 4.5 (some people seem to have newer EMMC) - that's why some people haven't been able to boot latest builds and got a black screen only.</li>
                         </ul>
-
-                     </ul>
+                      </ul>
 
           <a href="news.php" class="btn btn-primary pull-right btn-simple">All Updates</a>
         </div>
             
-        <div class="col-lg-6">
+        <div class="col-md-6">
+          <div class="visible-xs visible-sm">
+            <br/><br/>
+          </div>
           <h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> Downloads</h2>
           <hr />
                   
