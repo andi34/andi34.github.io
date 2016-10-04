@@ -33,7 +33,7 @@
       <div class="row">
               
         <div class="col-lg-6">
-          <h2>Latest Updates</h2>
+          <h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates</h2>
           <hr />
 
                       <p><b>25.09.2016</b></p>
@@ -79,7 +79,7 @@
         </div>
             
         <div class="col-lg-6">
-          <h2>Downloads</h2>
+          <h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> Downloads</h2>
           <hr />
                   
           <h3>Samsung Galaxy Tab 2</h3>
