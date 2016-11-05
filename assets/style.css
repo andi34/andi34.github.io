@@ -5,6 +5,7 @@ html {
 body {
   margin-bottom: 75px;
   background-color: white;
+  padding-top: 70px;
 }
 .heading {
   padding-top: 45px;
@@ -23,20 +24,25 @@ body {
   margin: 14px 0;
 }
 .navbar-transparent {
-  background: rgba(0, 0, 0, 0.0) !important;
+  background: white !important;
   color: black !important;
+  padding-top: 10px !important;
 }
 .navbar {
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: box-shadow 0.2s ease-out !important;
+  -moz-transition: box-shadow 0.2s ease-out !important;
+  -o-transition: box-shadow 0.2s ease-out !important;
+  -ms-transition: box-shadow 0.2s ease-out !important;
+  transition: box-shadow 0.2s ease-out !important;
 }
-.navbar.scrolled {
-  background: rgba(0, 0, 0, 0.4) !important;
-  color: rgba(255,255,255, 0.9) !important;
-  padding-top: 10px !important;
+.navbar-white {
+  background: white !important;
+  color: black !important;
+  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04) !important;
 }
 .single {
   padding-top: 90px;
