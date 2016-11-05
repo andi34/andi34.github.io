@@ -7,9 +7,6 @@ body {
   background-color: white;
   padding-top: 70px;
 }
-.heading {
-  padding-top: 45px;
-}
 .jumbotron p {
   font-size: 16px;
 }
@@ -49,7 +46,6 @@ body {
 }
 @media (max-width: 768px) {
   .heading {
-    padding-top: 55px;
     font-size: 44px;
   }
   .footer {
