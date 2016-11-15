@@ -35,7 +35,7 @@ body {
 .navbar-white {
   background: white !important;
   color: black !important;
-  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
+  box-shadow: 0 1px 8px rgba(0,0,0,.3) !important;
 }
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
   color: inherit;
