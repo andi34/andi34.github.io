@@ -44,6 +44,9 @@ body {
 .single {
   padding-top: 90px;
 }
+.list-group-item {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 @media (max-width: 768px) {
   .heading {
     font-size: 44px;
