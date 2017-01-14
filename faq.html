@@ -133,10 +133,13 @@
               <div class="alert-icon">
                 <i class="material-icons">info</i>
               </div>
-              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true"><i class="material-icons">clear</i></span>
+              </button>
               <b>Note:</b>
               Your device get detected automatically on unified builds and loads proper driver and config at boot! You shouldn't notice any difference compared to the device specific builds (only changed romname).
-          </div>
+            </div>
+          </li>
         </ul>
         <br />
         <hr />
@@ -178,7 +181,9 @@
             <div class="alert-icon">
               <i class="material-icons">info</i>
             </div>
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true"><i class="material-icons">clear</i></span>
+            </button>
             <b>Note:</b>
             OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
           </div>
@@ -220,9 +225,11 @@
               <div class="alert-icon">
                 <i class="material-icons">info</i>
               </div>
-              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true"><i class="material-icons">clear</i></span>
+              </button>
               <b>Note:</b>
-              <p>Some rom changes depend on this property (e.g load proper sensor driver, audio config etc.) - old custom kernel don't use the porperty and will cause issues on those roms!</p>
+              Some rom changes depend on this property (e.g load proper sensor driver, audio config etc.) - old custom kernel don't use the porperty and will cause issues on those roms!
             </div>
             <li>One kernel source for all Android Versions (4.4 and newer, only different defconfig for 4.4 Roms)</li>
           </ul>

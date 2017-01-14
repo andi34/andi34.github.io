@@ -7,8 +7,10 @@ body {
   background-color: white;
   padding-top: 70px;
 }
-.jumbotron p {
+.jumbotron p,
+.jumbotron li {
   font-size: 16px;
+  line-height: 1.4
 }
 .footer {
   position: absolute;

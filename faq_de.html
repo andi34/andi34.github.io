@@ -93,7 +93,7 @@
 
     <div class="jumbotron">
       <div class="container">
-          <h1 class="heading"><i class="fa fa-question-circle-o fa-fw" aria-hidden="true"></i> FAQ -  Häufig gestellte Fragen</h1>
+        <h1 class="heading"><i class="fa fa-question-circle-o fa-fw" aria-hidden="true"></i> FAQ -  Häufig gestellte Fragen</h1>
       </div>
     </div>
       
@@ -128,14 +128,18 @@
             <ul>
               <li>GT-P3110, GT-P3113, GT-P5110 and GT-P5113 user: flash "espressowifi" Roms</li>
               <li>GT-P3100 and GT-P5100 user: flash "espresso3g" Roms</li>
-            </ul><br />
-            <div class="alert alert-primary">
-              <div class="alert-icon">
-                <i class="material-icons">info</i>
-              </div>
-              <button type="button" class="close" data-dismiss="alert">&times;</button>
-              <b>Note:</b>
-              Your device get detected automatically on unified builds and loads proper driver and config at boot! You shouldn't notice any difference compared to the device specific builds (only changed romname).
+            </ul>
+          </li>
+          <br />
+          <div class="alert alert-primary">
+            <div class="alert-icon">
+              <i class="material-icons">info</i>
+            </div>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true"><i class="material-icons">clear</i></span>
+            </button>
+            <b>Note:</b>
+            Your device get detected automatically on unified builds and loads proper driver and config at boot! You shouldn't notice any difference compared to the device specific builds (only changed romname).
           </div>
         </ul>
         <br />
@@ -174,14 +178,16 @@
           <li>Settings -> Developer options  -> Root access</li>
           <li>set root access to "Apps and ADB"</li>
         </ul>
-          <div class="alert alert-primary">
-            <div class="alert-icon">
-              <i class="material-icons">info</i>
-            </div>
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <b>Note:</b>
-            OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
+        <div class="alert alert-primary">
+          <div class="alert-icon">
+            <i class="material-icons">info</i>
           </div>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"><i class="material-icons">clear</i></span>
+          </button>
+          <b>Note:</b>
+          OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
+        </div>
         <br />
         <hr />
         <p><b>How do i get proper logs?</b></p>
@@ -220,9 +226,11 @@
               <div class="alert-icon">
                 <i class="material-icons">info</i>
               </div>
-              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true"><i class="material-icons">clear</i></span>
+              </button>
               <b>Info:</b>
-              <p>Machne Aenderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config fuer euer Geraet zu laden) - Aeltere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!</p>
+              Machne Aenderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config fuer euer Geraet zu laden) - Aeltere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!
             </div>
             <li>Ein Kernel Quellcode fuer alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)</li>
           </ul>
