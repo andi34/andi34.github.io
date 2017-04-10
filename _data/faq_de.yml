@@ -1,7 +1,7 @@
 - title: Wie flashe ich eine Rom richtig?
   content: |
     - macht ein Backup von allen wichtigen Daten (z.B. Kontakte) und speichert diese auf eurer MicroSD-Karte oder auf eurem PC/Laptop
-    - Kopiert die Rom und Gapps die ihr flashen woll auf eure MicroSD-Karte (Die Gapps muessen zur Android-Version passen!!)
+    - Kopiert die Rom und Gapps die ihr flashen wollt auf eure MicroSD-Karte (Die Gapps müssen zur Android-Version passen!!)
     - Bootet euer Custom Recovery (z.B. TWRP)
     - Macht ein Backup eurer jetzigen Rom auf die MicroSD-Karte, bei Bedarf speichert es auf eurem PC/Laptop
       - wipe cache
@@ -17,12 +17,12 @@
     link: /faq/faq_twrp_de.html
     
     
-- title: What Rom do i use on my Galaxy Tab2?
+- title: Welche Rom kann ich auf mein Galaxy Tab2 flashen?
   content: |
-    - You can use a device specific rom for your device (discontinued), the Rom name need to match your model.
-    - You can use a unifed Rom for your device.
-      - GT-P3110, GT-P3113, GT-P5110 and GT-P5113 user: flash "espressowifi" Roms
-      - GT-P3100 and GT-P5100 user: flash "espresso3g" Roms
+    - Du kannst Gerätespezifische Roms verwenden (werden nicht mehr weiterentwickelt), achte aber darauf das der Name zu deinem Gerät passt.
+    - Du kannst ausserdem auch eine unified Rom für dein Tab2 verwenden.
+      - Wenn du ein GT-P3110, GT-P3113, GT-P5110 oder GT-P5113 besitzt: flashe "espressowifi" Roms
+      - Wenn du ein GT-P3100 oder GT-P5100 besitzt: flashe "espresso3g" Roms
     
     <div class="alert alert-primary">
       <div class="alert-icon">
@@ -31,8 +31,8 @@
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true"><i class="material-icons">clear</i></span>
       </button>
-      <b>Note:</b>
-        Your device get detected automatically on unified builds and loads proper driver and config at boot! You shouldn't notice any difference compared to the  device specific builds (only changed romname).
+      <b>Wichtig:</b>
+        Wenn ihr unified Builds verwendet werden alle Treiber und Konfigurationen von eurem Tab automatisch beim booten erkannt! Ihr dürftet keinerlei Unterschiede gegenüber den Gerätespezifischen Builds bemerken (abgesehen vom Namen).
     </div>
     
     
@@ -125,12 +125,12 @@
 
     - Basiert auf dem offiziellem [OMAP4 Kernel Quellcode (p-android-omap-3.0-dev branch)](http://git.omapzoom.org/?p=kernel/omap.git;a=shortlog;h=refs/heads/p-android-omap-3.0-dev)
     - Update auf 3.0.101 [linux-stable/linux-3.0.y](https://kernel.googlesource.com/pub/scm/linux/kernel/git/stable/linux-stable/+/linux-3.0.y)
-    - Komplette Aenderungs-Historie
+    - Komplette Änderungs-Historie
     - BCMDHD Update auf 1.88.45 vom 3.4 Kernel(**Info:** Samsungs BCMDHD hat vorher die Mac Adresse aus /efs ausgelesen. Aus Sicht der Sicherheit eine sehr sehr schlechte Sache, dass ein Kernel diese Rechte auf das Dateisystem hat. Was anderes von Samsung erwartet? Die Mac adresse wird jetzt auf Basis des SOC erstellt und sollte genauso einmalig sein.)
     - last_kmsg Support
-    - Samsungs Source entmuellt bevor die Treiber etc. hinzugefuegt wurden
-    - dynamic tiler allocations (mehr freier Ram verfuegbar)
-    - Die Tab2 Variante wird beim Starten automatisch erkannt (Der lcd_panel_id command line parameter aus dem Bootloader wird ausgelesen um das richtige Geraet zu erkennen)
+    - Samsungs Source entmüllt bevor die Treiber etc. hinzugefügt wurden
+    - dynamic tiler allocations (mehr freier Ram verfügbar)
+    - Die Tab2 Variante wird beim Starten automatisch erkannt (Der lcd_panel_id command line parameter aus dem Bootloader wird ausgelesen um das richtige Gerät zu erkennen)
     - Neues property (/sys/board_properties/type) um den Board Typ anzuzeigen
     
       <div class="alert alert-primary">
@@ -141,13 +141,13 @@
           <span aria-hidden="true"><i class="material-icons">clear</i></span>
         </button>
         <b>Info:</b>
-        Machne Änderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config fuer euer Geraet zu laden) - Ältere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!
+        Machne Änderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config für euer Gerät zu laden) - Ältere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!
       </div>
     
     - Ein Kernel Quellcode fÜr alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)
     
     Wir nutzen den "neuen" auf allen unserern Roms (Android 5.1 und neuer, aber auch auf manchen alten offiziellen 4.4 Roms wie z.B. CM 11.0).  
-    [Den Kernel Quellcode findet ihr hier](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/stable) , [Historie vom "entmuellen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
+    [Den Kernel Quellcode findet ihr hier](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/stable) , [Historie vom "entmüllen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
     
     
 - title: Wie kann ich das Einschalt Logo/Bild auf meinem Galaxy Tab2 ändern?
