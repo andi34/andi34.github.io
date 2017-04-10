@@ -36,10 +36,10 @@
     </div>
     
     
-- title: How to re-calibrate the compass on my Tab 2?
+- title: Wie rekalibriere ich den Kompass von meinem Tab 2?
   content: |
-    - The compass sensor is calculated from the accelerometer and magnetic field sensors. If the values reported by the compass sensor are not right, you can re-calibrate the magnetic field sensor with the following steps:
-      
+    - Der Kompass Sensor berechnet mit hilfe des Accelerometers und des Magnetfeld Sensors die Himmelsrichtung. Sollten diese Werte einmal nicht mehr stimmen, könnt ihr den Magnetfeld Sensor mit folgenden Schritten rekalibrieren: 
+ 
       ```
       adb shell stop geomagneticd
           
@@ -49,9 +49,8 @@
         
       adb shell start geomagneticd
       ```
-      
-    - Now start an application using the compass sensor. Move the device in every direction, with a rotation around each axis: the device should now be re-calibrated.
-    
+
+    - startet danach eine Kompass App und dreht das Tab mehrmals in jede Richtung um die eigene Achse. Danach sollte euer Tab rekalibriert sein.
     
 - title: Rom installation failed on "error 7" in recovery, what can i do?
   content: |
@@ -61,7 +60,7 @@
 
         adb pull /path/to/log/log.name
 
-    If this is not possible for your: tell the whole message you get! There are different "error 7" messages out!
+    If this is not possible for you: tell the whole message you get! There are different "error 7" messages out!
 
     - it could be you used a recovery for a different device (p3100, p3110, p5100 and p5110 had a own recovery in the past!)
     - it could be you flashed a file/rom not made for your device
@@ -89,15 +88,15 @@
     </div>
     
     
-- title: How do i get proper logs?
+- title: Wie bekomme ich logs?
   content: |
-    Well, there are some apps out (e.g. Syslog App) which can help getting usefull logs, but i prefer using adb to get those logs:
+    Ihr könnt einige Apps im PlayStore finden (z.B. Syslog) die euch dabei helfen brauchbare logs zu bekommen, aber ich persönlich bevorzuge adb mit folgenden Befehlen:
 
     - Logcat:
     
           adb shell logcat > logcat.txt
           
-      (abort/stop logging pressing <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> on your keyboard)
+      (zum stoppen des loggings drückt <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> auf eurer Tastatur)
 
     - Radio Logcat:
     
@@ -112,7 +111,7 @@
           adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt
           
     - audit.log:  
-      (make sure root is enabled!)
+      (seid sicher das ihr root seit)
 
           adb root
 
@@ -141,10 +140,10 @@
           <span aria-hidden="true"><i class="material-icons">clear</i></span>
         </button>
         <b>Info:</b>
-        Machne Änderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config für euer Gerät zu laden) - Ältere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!
+        Manche Änderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config für euer Gerät zu laden) - Ältere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!
       </div>
     
-    - Ein Kernel Quellcode fÜr alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)
+    - Ein Kernel Quellcode für alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)
     
     Wir nutzen den "neuen" auf allen unserern Roms (Android 5.1 und neuer, aber auch auf manchen alten offiziellen 4.4 Roms wie z.B. CM 11.0).  
     [Den Kernel Quellcode findet ihr hier](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/stable) , [Historie vom "entmüllen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
