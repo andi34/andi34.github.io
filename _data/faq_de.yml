@@ -51,30 +51,32 @@
       ```
 
     - startet danach eine Kompass App und dreht das Tab mehrmals in jede Richtung um die eigene Achse. Danach sollte euer Tab rekalibriert sein.
-    
-- title: Rom installation failed on "error 7" in recovery, what can i do?
-  content: |
-    Best will be to post a recovery.log. There's an option inside your recovery to create one.
 
-    You can get the log to your PC using adb:
+    
+- title: Was kann ich tun wenn die Rom installation wegen eines "Error 7" im Recovery fehlschlägt ?
+  content: |
+    Am besten ist es wenn ihr ein Recovery.log postet. Es gibt eine option in eurem Recovery um ein Recovery.log zu erstellen.
+
+    So bekommt ihr das log mit adb auf euren PC:
 
         adb pull /path/to/log/log.name
 
-    If this is not possible for you: tell the whole message you get! There are different "error 7" messages out!
-
-    - it could be you used a recovery for a different device (p3100, p3110, p5100 and p5110 had a own recovery in the past!)
-    - it could be you flashed a file/rom not made for your device
-    - it could be your recovery is to old (official CWM is to old, a lot of user still use it)
+    Wenn es bei euch einmal nicht funktionieren sollte: postet bitte die gesamte Nachricht die ihr im Recovery angezeigt bekommt, da
+    es für einen "Error 7" unterschiedliche Gründe gibt.
+    
+    - Es kann z.B. sein, das ihr ein älteres Gerätespezifisches Recovery nutzt (p3100, p3110, p5100 und p5110 hatten in der Vergangenheit ein eigenes Recovery)
+    - oder es kann sein, das ihr eine falsche Rom geflasht habt, die nicht zu eurem Gerät passt
+    - oder es kann sein, das ihr ein zu altes Recovery nutzt (z.B. ein altes Offizielles CWM, einige nutzen es heute noch)
     
     
-- title: How to enable root access?
+- title: Wie bekomme ich Root Zugriff ?
   content: |
-    Custom Roms like CyanogenMod and SlimRoms are pre-rooted by default, you only need to enable it.
+    Custom Roms wie SlimRoms sind von Haus aus gerootet, der Root Zugriff muß nur von euch aktiviert werden.
 
-    - Settings -> About Tablet / About Phone
-    - 7 x tab on the Build number (you'll get a notification that you are a developer now / enabled developer options)
-    - Settings -> Developer options -> Root access
-    - set root access to "Apps and ADB"
+    - Einstellungen -> Über das Tablet / Über das Telefon
+    - Tippt 7x auf die Build nummer (ihr bekommt eine Benachrichtigung wenn die Entwickleroptionen aktiviert sind)
+    - Einstellungen -> Entwickleroptionen -> Root Zugriff
+    - setzt den Root Zugriff auf "Apps und ADB"
     
     <div class="alert alert-primary">
       <div class="alert-icon">
@@ -83,8 +85,8 @@
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true"><i class="material-icons">clear</i></span>
       </button>
-      <b>Note:</b>
-      LineageOS, OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
+      <b>Wichtig:</b>
+      LineageOS, OmniRom and AOSP sind von Haus aus NICHT gerootet. Ihr benötigt deshalb noch <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> oder <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> um Root zu bekommen.
     </div>
     
     
