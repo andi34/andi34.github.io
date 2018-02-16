@@ -9,18 +9,18 @@
 
     **Galaxy Nexus**
 
-    Becuase of our tiny system-partition i had to remove Chromium from the builds. Lightning is used again as an replacement, but i'd suggest to install a browser like Chrome, Chromium or Firefox for daylie use
+    Because of our tiny system-partition i had to remove Chromium from the builds. Lightning is used again as an replacement, but i'd suggest to install a browser like Chrome, Chromium or Firefox for daylie use
     [read here](https://github.com/andi34/prebuilts_chromium#theres-a-great-lightweight-browser-cant-i-use-it).
 
 
-    **LeinageOS 13**
+    **LineageOS 13**
 
     Updates for February 2018 security patch level applied. The Update is available for following devices:
 
     - Galaxy Tab2
     - Galaxy Nexus (device specific builds)
 
-    Please not that todays official builds don't have these patches included.
+    Please note that todays official builds don't have these patches included.
 
 
     **OmniROM 6**
