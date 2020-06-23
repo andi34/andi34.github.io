@@ -1,3 +1,22 @@
+- date: 23.06.2020
+  content: |
+    **Android 7**
+
+    Updates for June 2020 security patch level applied.   
+    Thanks to [html6405](https://forum.xda-developers.com/member.php?u=7211083) the keyboard dock now functions properly too on Galaxy Tab 2!   
+    Slim7, LineageOS 14 and OmniROM 7 are uploaded!
+
+
+- date: 06.06.2020
+  content: |
+    **Photobooth v2.4.0**
+
+    Hey together!
+
+    Photobooth was updated to Version 2.4.0 with some new options and offline manual! Changelog and Release can be found [here](https://github.com/andi34/photobooth/releases).
+
+    I hope everyone enjoys the new release!
+
 - date: 13.04.2020
   content: |
     **Photobooth v2.3.1**
