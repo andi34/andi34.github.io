@@ -1,8 +1,21 @@
+- date: 02.07.2020
+  content: |
+    **Android 4.4.4**
+
+    Updates with some security fixes and also with keyboard dock fixes (for the Galaxy Tab2 family)!   
+    SlimKat, LineageOS 11 and OmniROM 4 are uploaded for all supported devices!
+
+    **Photobooth**
+
+    Photobooth v2.5.0 is available now!  
+    Changelog and Release can be found [here](https://github.com/andi34/photobooth/releases).
+
+
 - date: 28.06.2020
   content: |
     **Android 6**
 
-    Updates with keyboard dock fixes for the Galaxy Tab2 family!   
+Updates with keyboard dock fixes for the Galaxy Tab2 family!   
     Slim6, LineageOS 13 and OmniROM 6 are uploaded!
 
 
