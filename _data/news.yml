@@ -1,3 +1,22 @@
+- date: 09.07.2020
+  content: |
+    **Photobooth v2.6.0**
+
+    Photobooth was updated to Version 2.6.0!
+
+    New options:
+    - Automatically reload Photobooth if an error occurs while taking a photo/collage (enabled by default)
+
+    Bugfixes:
+    - Fix FC on Standalone Gallery if a keycode is defined to take a photo/collage
+    - Close gallery if a keycode is defined to take a photo/collage
+
+    General changes:
+    - update PHPMailer to latest version
+
+    Release can be found [here](https://github.com/andi34/photobooth/releases).
+
+
 - date: 02.07.2020
   content: |
     **Android 4.4.4**
