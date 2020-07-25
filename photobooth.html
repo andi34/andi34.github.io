@@ -46,7 +46,7 @@ title: Photobooth Raspberry Pi
 					<li><p>Order pictures in gallery ascending oder descending by picture age.</p></li>
 					<li><p>Hide the gallery.</p></li>
 				</ul>
-				<li><p>Choose between md5- or date-formatted image names.</p></li>
+				<li><p>Choose between date-formatted, numbered or random image names.</p></li>
 				<li><p>Choose an image filter after taking a picture.</p></li>
 				<li><p>QR-Code to allow downloading pictures from your Photobooth.</p></li>
 				<li><p>Pictures can be directly downloaded from the gallery.</p></li>
@@ -84,6 +84,7 @@ title: Photobooth Raspberry Pi
 				<li><p>standalone slideshow via <a href="http://localhost/slideshow">localhost/slideshow</a></p></li>
 				<li><p>access login via <a href="http://localhost/login">localhost/login</a> instead <a href="http://localhost/login.php">localhost/login.php</a></p></li>
 				<li><p>offline manual with settings explained under <a href="http://localhost/manual">localhost/manual</a> (<a href="https://github.com/andi34/photobooth/pull/59">andi34/photobooth#59</a>)</p></li>
+				<li><p>offline FAQ under  <a href="http://localhost/manual/faq.html">localhost/manual/faq.html</a></p></li>
 				<li><p>fix windows compatibility</p></li>
 				<li><p>fix check for image filter</p></li>
 				<li><p>performance improvement (<a href="https://github.com/andreknieriem/photobooth/pull/226">andreknieriem/photobooth#226</a>)</p></li>
@@ -95,6 +96,9 @@ title: Photobooth Raspberry Pi
 				<li><p>Switch to blue-gray color theme by default</p></li>
 				<li><p>Admin panel: switch to range config and use toggles instead checkboxes</p></li>
 				<li><p>Switch to <a href="https://github.com/andreasremdt/simple-translator">simple-translator</a> for translations, use english as fallback langauage if a translation is missing. This also gives the possibility to easily translate Photobooth. <a href="https://github.com/andi34/photobooth/wiki/FAQ#how-to-update-or-add-translations">(How to update or add translations?)</a></p></li>
+				<li><p>Add database name to picture name if database changed from default name</p></li>
+				<li><p>Close opened picture if photo/collage is triggered</p></li>
+				<li><p>Only take Photos via defined key if we aren't already</p></li>
 				</br>
 				<h4>New Options:</h4>
 				<li><p>Option to disable the delete button (<a href="https://github.com/andreknieriem/photobooth/pull/228">andreknieriem/photobooth#228</a>)</p></li>
@@ -109,6 +113,10 @@ title: Photobooth Raspberry Pi
 				<li><p>Preview/Stream from device cam as background on start page (<a href="https://github.com/andi34/photobooth/pull/58">andi34/photobooth#58</a>)</p></li>
 				<li><p>Allow using a stream from URL at countdown for preview</p></li>
 				<li><p>Allow to rotate preview from URL</p></li>
+				<li><p>Show button bar inside gallery on bottom or on top of the image</p></li>
+				<li><p>Auto reload Photobooth on error while taking a photo</p></li>
+				<li><p>Allow to change permissons on picture</p></li>
+				<li><p>qrHelp: define WiFi SSID used on QR via admin panel</p></li>
 			</ul>
 		</div>
 	</div>
