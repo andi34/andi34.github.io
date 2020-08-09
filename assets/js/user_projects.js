@@ -80,8 +80,9 @@ var items = [{
 }];
 
 var openGallery = function openGallery(index) {
-  var pswpElement = document.querySelectorAll('.pswp')[0]; // define options (if needed)
+  var pswpElement = document.querySelectorAll('.pswp')[0];
 
+  // define options (if needed)
   var options = {
     history: true,
     focus: true,
@@ -95,9 +96,7 @@ var openGallery = function openGallery(index) {
   gallery.init();
 };
 
-// Init on domready
-$(function () {
-   openGallery();
-});
-
 document.getElementById('btn').onclick = openGallery();
+(function () {
+  openGallery();
+});
