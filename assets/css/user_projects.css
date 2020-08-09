@@ -1,0 +1,21 @@
+.pswp__caption__center {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.pswp__counter {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold; }
+
+.pswp__button--close {
+  display: none; }
+
+.pswp__caption__center {
+  max-width: 80%; }
+
+a,
+a:active,
+a:focus {
+  color: #ffffff;
+  text-shadow: 0 0 5px black; }
