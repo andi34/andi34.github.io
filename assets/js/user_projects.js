@@ -83,10 +83,9 @@ var openGallery = function openGallery(index) {
   var pswpElement = document.querySelectorAll('.pswp')[0]; // define options (if needed)
 
   var options = {
-    history: true,
-    focus: true,
+    history: false,
+    focus: false,
     closeOnScroll: false,
-    closeOnVerticalDrag: false,
     index: index,
     showAnimationDuration: 0,
     hideAnimationDuration: 0
