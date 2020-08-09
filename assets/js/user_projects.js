@@ -97,5 +97,5 @@ var openGallery = function openGallery(index) {
 };
 
 (function () {
-  openGallery();
+  openGallery(0);
 });
