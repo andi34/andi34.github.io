@@ -89,8 +89,6 @@ var openGallery = function openGallery(index) {
     closeOnScroll: false,
     closeOnVerticalDrag: false,
     index: index,
-    showAnimationDuration: 0,
-    hideAnimationDuration: 0
   };
   var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
   gallery.init();
