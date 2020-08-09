@@ -1,3 +1,12 @@
+body {
+  padding: 3em 3em;
+  margin: 1em;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #0a6071;
+}
+
 .pswp__caption__center {
   font-size: 26px;
   margin-top: 20px;
@@ -16,6 +25,20 @@
 
 .pswp__caption__center {
   max-width: 80%;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border-color: #ffffff;
+  background: #214852;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  font-size: 1em;
 }
 
 a,
