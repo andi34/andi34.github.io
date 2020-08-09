@@ -95,6 +95,9 @@ var openGallery = function openGallery(index) {
   gallery.init();
 };
 
-openGallery();
+// Init on domready
+$(function () {
+   openGallery();
+});
 
 document.getElementById('btn').onclick = openGallery();
