@@ -1,27 +1,14 @@
-var gulp         = require('gulp');
-var path         = require('path');
-var sass         = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var sourcemaps   = require('gulp-sourcemaps');
+'use strict';
 
-var Paths = {
-  HERE                 : './',
-  CSS                  : './assets/css/',
-  SCSS_TOOLKIT_SOURCES : './assets/scss/material-kit.scss',
-  SCSS                 : './assets/scss/**/**'
-};
+var gulp = require('gulp');
+var sass = require('gulp-sass');
 
-gulp.task('compile-scss', function () {
-  return gulp.src(Paths.SCSS_TOOLKIT_SOURCES)
-    .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer())
-    .pipe(sourcemaps.write(Paths.HERE))
-    .pipe(gulp.dest(Paths.CSS));
+gulp.task('sass', function () {
+  return gulp.src('./assets/scss/*.scss')
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(gulp.dest('./assets/css'));
 });
 
-gulp.task('watch', function () {
-  gulp.watch(Paths.SCSS, ['compile-scss']);
+gulp.task('sass:watch', function () {
+  gulp.watch('./assets/scss/*.scss', gulp.series('sass'));
 });
-
-gulp.task('default', ['watch']);
