@@ -86,8 +86,9 @@ var openGallery = function openGallery(index) {
   var options = {
     history: true,
     focus: true,
+    clickToCloseNonZoomable: false,
     closeOnScroll: false,
-    closeOnVerticalDrag: false,
+    closeOnOutsideClick: false,
     index: index,
   };
   var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
