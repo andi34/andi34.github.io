@@ -1,5 +1,5 @@
 /*!
- * PhotoSwipe - v4.2.0 - 2020-08-26
+ * PhotoSwipe - v4.2.0 - 2020-08-27
  * http://photoswipe.com
  * Copyright (c) 2020 Dmitry Semenov;
  */
@@ -337,6 +337,7 @@ var _options = {
 	arrowKeys: true,
 	mainScrollEndFriction: 0.35,
 	panEndFriction: 0.35,
+	animateTransitions: false,
 	isClickableElement: function (el) {
 		return el.tagName === 'A';
 	},
@@ -1018,34 +1019,59 @@ var publicMethods = {
 	},
 
 	goTo: function (index) {
-		index = _getLoopedId(index);
+		if (_options.animateTransitions) {
+			_finishSwipeMainScrollGesture('swipe', 80 * index, {
+				lastFlickDist: {
+					x: 80,
+					y: 0
+				},
+				lastFlickOffset: {
+					x: 80 * index,
+					y: 0
+				},
+				lastFlickSpeed: {
+					x: 2 * index,
+					y: 0
+				}
+			});
+		} else {
+			index = _getLoopedId(index);
 
-		var diff = index - _currentItemIndex;
-		_indexDiff = diff;
+			var diff = index - _currentItemIndex;
+			_indexDiff = diff;
 
-		_currentItemIndex = index;
-		self.currItem = _getItemAt(_currentItemIndex);
-		_currPositionIndex -= diff;
+			_currentItemIndex = index;
+			self.currItem = _getItemAt(_currentItemIndex);
+			_currPositionIndex -= diff;
 
-		_moveMainScroll(_slideSize.x * _currPositionIndex);
+			_moveMainScroll(_slideSize.x * _currPositionIndex);
 
-		_stopAllAnimations();
-		_mainScrollAnimating = false;
+			_stopAllAnimations();
+			_mainScrollAnimating = false;
 
-		self.updateCurrItem();
+			self.updateCurrItem();
+		}
 	},
 	next: function () {
 		if (!_options.loop && _currentItemIndex === _getNumItems() - 1) {
 			return;
 		}
-		self.goTo(parseInt(_currentItemIndex) + 1);
+		if (_options.animateTransitions) {
+			self.goTo(-1);
+		} else {
+			self.goTo(parseInt(_currentItemIndex) + 1);
+		}
 	},
 
 	prev: function () {
 		if (!_options.loop && _currentItemIndex === 0) {
 			return;
 		}
-		self.goTo(parseInt(_currentItemIndex) - 1);
+		if (_options.animateTransitions) {
+			self.goTo(1);
+		} else {
+			self.goTo(parseInt(_currentItemIndex) - 1);
+		}
 	},
 
 	setItems: function (items) {
@@ -2028,7 +2054,8 @@ var _gestureStartTime,
 
 		// main scroll
 		if ((_mainScrollShifted || _mainScrollAnimating) && numPoints === 0) {
-			var itemChanged = _finishSwipeMainScrollGesture(gestureType, _releaseAnimData);
+			var totalShiftDist = _currPoint.x - _startPoint.x,
+				itemChanged = _finishSwipeMainScrollGesture(gestureType, totalShiftDist, _releaseAnimData);
 			if (itemChanged) {
 				return;
 			}
@@ -2191,7 +2218,7 @@ var _gestureStartTime,
 		animData.lastNow = _getCurrentTime();
 		animData.panAnimLoop();
 	},
-	_finishSwipeMainScrollGesture = function (gestureType, _releaseAnimData) {
+	_finishSwipeMainScrollGesture = function (gestureType, totalShiftDist, _releaseAnimData) {
 		var itemChanged;
 		if (!_mainScrollAnimating) {
 			_currZoomedItemIndex = _currentItemIndex;
@@ -2200,8 +2227,7 @@ var _gestureStartTime,
 		var itemsDiff;
 
 		if (gestureType === 'swipe') {
-			var totalShiftDist = _currPoint.x - _startPoint.x,
-				isFastLastFlick = _releaseAnimData.lastFlickDist.x < 10;
+			var isFastLastFlick = _releaseAnimData.lastFlickDist.x < 10;
 
 			// if container is shifted for more than MIN_SWIPE_DISTANCE,
 			// and last flick gesture was in right direction

@@ -1,5 +1,5 @@
 /*!
- * PhotoSwipe Default UI - 4.2.0 - 2020-08-26
+ * PhotoSwipe Default UI - 4.2.0 - 2020-08-27
  * http://photoswipe.com
  * Copyright (c) 2020 Dmitry Semenov;
  */
