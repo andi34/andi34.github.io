@@ -1,5 +1,13 @@
 - date: 13.09.2020
   content: |
+    **Photobooth v2.9.0**
+
+    Photobooth was updated to Version 2.9.0! A lot of new options and improvements have been added!  
+    Like always: Changelog and Release can be found [here](https://github.com/andi34/photobooth/releases).
+
+
+- date: 13.09.2020
+  content: |
     **Photobooth joined Crowdin as localization manager!**
 
     Translating Photobooth is easier than ever before!  
@@ -10,6 +18,7 @@
     Best regards
 
     Andi
+
 
 - date: 13.08.2020
   content: |
